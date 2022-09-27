@@ -1,0 +1,85 @@
+.grid-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ; 
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+gap: 5px;
+width: 1440px;
+height: 900px;
+background: #FFFFFF;
+text-align: center;
+color: #FFFFFF;
+}
+.grid-container>div{
+
+}
+.item1{
+grid-row: 1 / 3;
+grid-column: 1 / 2;
+background-color: #000000;
+}
+.item2{
+grid-row: 1 / 5;
+grid-column: 2 / 4;
+background-color: #000000;
+}
+.item3{
+grid-column: 4 / 6;
+grid-row: 1 / 2 ;
+background-color: #000000;
+}
+.item4{
+    grid-column: 1 / 2;
+grid-row: 3 / 5 ;
+background-color: #000000;
+}
+.item5{
+    grid-column: 4 / 6;
+grid-row: 2 / 4 ;
+background-color: #000000;
+}
+.item6{
+    grid-column: 4 /6;
+grid-row: 4 / 5 ;
+background-color: #000000;
+}
+.item7{
+    grid-column: 1 / 2;
+grid-row: 5 / 9 ;
+background-color: #000000;
+}
+.item8{
+    grid-column: 2 / 3;
+grid-row: 5 / 7 ;
+background-color: #000000;
+}
+.item9{
+    grid-column: 3 / 5;
+grid-row: 5 / 9 ;
+background-color: #000000;
+}
+.item10{
+    grid-column: 5/ 6;
+grid-row: 5 / 9 ;
+background-color: #000000;
+}
+.item11{
+    grid-column: 2 / 3;
+grid-row: 7 / 9 ;
+background-color: #000000;
+}
+.item12{
+grid-column: 1 / 6;
+grid-row: 9 / 10;
+background-color: #000000;
+}
+p{
+width: 781px;
+height: 42px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+}
